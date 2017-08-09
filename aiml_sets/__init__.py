@@ -3,6 +3,9 @@ import os
 import shutil
 
 
+__author__ = 'Aaron Hosford'
+
+
 _ROOT_PATH = os.path.dirname(__file__)
 
 
