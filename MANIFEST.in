@@ -1,0 +1,6 @@
+include README*
+include MANIFEST.in
+include LICENSE
+include *.md
+recursive-include aiml_sets *.aiml
+include .gitignore
