@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='AIML_Sets',
@@ -14,4 +14,5 @@ setup(
     package_data={
         'aiml_sets': ['*/*.aiml']
     },
+    zip_safe=False
 )
