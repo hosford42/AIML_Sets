@@ -22,5 +22,5 @@ marked with a copyright header of their own are (c) Aaron Hosford.
   (ALICE)
 * [Square Bear's AIML files](http://www.square-bear.co.uk/aiml/) 
   (Mitsuku)
-* [Standard AIML Set]( https://github.com/cdwfs/pyaiml/tree/master/standard)
+* [Standard AIML Set](https://github.com/cdwfs/pyaiml/tree/master/standard)
   (PyAIML)
