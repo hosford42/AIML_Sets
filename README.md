@@ -1,3 +1,20 @@
+# Free AIML Rule Sets
+
+This is a collection of open-sourced AIML (Artificial Intelligence Markup 
+Language) rule sets, for use with any compatible AIML conversational engine.
+The files have been repackaged into a single repo for easy download and
+installation. I plan to eventually distribute this on the Python Package 
+Index to make it installable with Python's package installer, pip, making
+it easily available for use with the PyAIML package.
+
+## GNU General Public License
+
+All files are released under the GNU General Public License. The included 
+AIML files are (c) ALICE A.I. Foundation, Inc. I have taken care to 
+exclude any files that did not specifically contain a copyright & license 
+header provided by the original author. Any additional files that are not 
+marked with a copyright header of their own are (c) Aaron Hosford.
+
 ## Included AIML Sets 
 
 * [Free A.L.I.C.E. AIML Set](
@@ -5,10 +22,3 @@
   (ALICE)
 * [Square Bear's AIML files](http://www.square-bear.co.uk/aiml/) 
   (Mitsuku)
-
-All included AIML files are (c) ALICE A.I. Foundation, and have been 
-released by the original author under the GNU General Public License. 
-I have taken care to exclude any files that did not specifically contain
-a copyright & license header included by the original author. All non-AIML
-files are (c) Aaron Hosford, also released under the GNU General Public
-License.
