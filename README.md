@@ -5,7 +5,8 @@ Language) rule sets, for use with any compatible AIML conversational engine.
 The files have been repackaged into a single repo for easy download and
 installation. I plan to eventually distribute this on the Python Package 
 Index to make it installable with Python's package installer, pip, making
-it easily available for use with the PyAIML package.
+it easily available for use with [AIML 
+Bot](https://github.com/hosford42/aiml_bot).
 
 ## GNU General Public License
 
