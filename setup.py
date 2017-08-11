@@ -58,7 +58,8 @@ def get_long_description():
             # pandoc, you rock...
             rst_content = convert_file(md_path, 'rst')
             with open(rst_path, 'w') as rst_file:
-                rst_file.write(rst_content)
+                for line in rst_content.splitlines(keepends=False):
+                    rst_file.write(line + '\n')
         except Exception:
             try:
                 # noinspection PyUnresolvedReferences,PyPackageRequirements
@@ -71,7 +72,8 @@ def get_long_description():
                 # pandoc, you rock...
                 rst_content = convert_file(md_path, 'rst')
                 with open(rst_path, 'w') as rst_file:
-                    rst_file.write(rst_content)
+                    for line in rst_content.splitlines(keepends=False):
+                        rst_file.write(line + '\n')
 
     if os.path.isfile(rst_path):
         with open(rst_path) as rst_file:
@@ -84,7 +86,7 @@ def get_long_description():
 
 setup(
     name='AIML Sets',
-    version='1.0',
+    version='1.0.1',
     author='ALICE A.I. Foundation, Inc.',
     author_email='info@alicebot.org',
     maintainer='Aaron Hosford',

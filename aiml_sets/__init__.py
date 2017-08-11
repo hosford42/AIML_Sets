@@ -4,6 +4,7 @@ import shutil
 
 
 __author__ = 'Aaron Hosford'
+__version__ = '1.0.1'
 
 
 _ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
