@@ -2,5 +2,7 @@ include README*
 include MANIFEST.in
 include LICENSE
 include *.md
+include *.txt
+include *.rst
 recursive-include aiml_sets *.aiml
 include .gitignore
