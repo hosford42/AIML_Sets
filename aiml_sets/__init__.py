@@ -3,7 +3,7 @@ import os
 import shutil
 
 
-__author__ = 'Aaron Hosford'
+__author__ = 'Aaron Hosford'  # Author of the Python code & the collection, but not the AIML sets themselves
 __version__ = '1.0.1'
 
 
